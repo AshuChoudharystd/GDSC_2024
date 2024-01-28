@@ -38,17 +38,6 @@ string convertToPalindrome(const string& sentence) {
     }
     return ans;
 }
-/*
-1.The code you have selected is a function called convertToPalindrome that takes a
-sentence as a string and returns a string with each word converted to a palindrome
-if it is not already one.
-2.It uses an istringstream to tokenize the input sentence into individual words based
-on spaces. It initializes an empty string ans to hold the output.
-3.Then it loops through each word, checking if it is a palindrome using the isPalindrome
-function. If it is not a palindrome, it concatenates the reverse of the word to the
-original to make it a palindrome.
-4.It adds the word and a space to the ans string. After looping through all words, it
-returns ans which will contain all the words converted or unchanged separated by spaces.*/
 
 int main() {
     string sentence = "The stats show that the civic policy was a success";
