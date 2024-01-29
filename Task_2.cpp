@@ -52,6 +52,19 @@ void sort_non_boundry_elements(vector<vector<int>>&v){
     }
 }
 
+int sum_dia(vector<vector<int>>&v){
+    int sum=0;
+    int n=v.size();
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            if(i==j || (i+j)==n-1){
+                sum+=v[i][j];
+            }
+        }
+    }
+    return sum;
+}
+
 int main(){
 
     int n;
@@ -67,6 +80,8 @@ int main(){
         }
         cout<<endl;
     }
+
+    cout<<"sum of diagonals is: "<<sum_dia(vec)<<endl;
 
     return 0;
 }
