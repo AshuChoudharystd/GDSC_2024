@@ -2,7 +2,7 @@
 // Created by DELL-PC on 1/27/2024.
 //
 
-//Ques 1:-You are given a string containing three types of parentheses: '(', ')', '{', '}', '[' and ']'. The goal is to
+//Ques 1:-You are given a string containing three types of parentheses: '(', ')', '{', '}', '[' and ']'. The goal is to too
 //determine whether the input string is valid or not.
 //A string is considered valid if:
 //Open brackets must be closed by the same type of brackets.
